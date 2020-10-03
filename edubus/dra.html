@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>EduBus</title>
+
+	<meta name="keywords" content="EDUBUS" />
+	<meta name="description" content="">
+	<meta name="author" content="Vatsal">
+		
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="assets/images/icons/favicon.ico">
+	<script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCPN4KDMQS9wUuB26734rAWD6GEEZDetUc",
+    authDomain: "real-time-b0126.firebaseapp.com",
+    databaseURL: "https://real-time-b0126.firebaseio.com",
+    projectId: "real-time-b0126",
+    storageBucket: "real-time-b0126.appspot.com",
+    messagingSenderId: "709038038236"
+  };
+  firebase.initializeApp(config);
+</script>
+
+	
+	<script type="text/javascript">
+		WebFontConfig = {
+			google: { families: [ 'Open+Sans:300,400,600,700,800','Poppins:300,400,500,600,700', 'Shadows+Into+Light:400', 'Playfair+Display:900' ] }
+		};
+		(function(d) {
+			var wf = d.createElement('script'), s = d.scripts[0];
+			wf.src = 'assets/js/webfont.js';
+			wf.async = true;
+			s.parentNode.insertBefore(wf, s);
+		})(document);
+	</script>
+	
+	<!-- Plugins CSS File -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="font/flaticon.css">
+	<!-- Main CSS File -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/vendor/fontawesome-free/css/all.min.css">
+</head>
+<body>
+	<div class="page-wrapper">
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-left">
+						<p class="top-message ls-0 text-uppercase text-white d-none d-sm-block">Rise up Your Skills Today With EDUBUS</p>
+					</div><!-- End .header-left -->
+
+					<div class="header-right header-dropdowns w-sm-100">
+						<div class="header-dropdown dropdown-expanded d-none d-lg-block mr-4">
+							<a href="#">Links</a>
+							<div class="header-menu">
+								<ul>
+									
+									<li><a href="about.html">About</a></li>
+									
+									<li><a href="contact.html">Contact</a></li>
+									
+								</ul>
+							</div><!-- End .header-menu -->
+						</div><!-- End .header-dropown -->
+
+						<span class="separator"></span>
+
+					
+
+						<div class="social-icons">
+							<a href="#" class="social-icon social-instagram icon-instagram" target="_blank"></a>
+							<a href="#" class="social-icon social-twitter icon-twitter" target="_blank"></a>
+							<a href="#" class="social-icon social-facebook icon-facebook" target="_blank"></a>
+						</div><!-- End .social-icons -->
+					</div><!-- End .header-right -->
+				</div><!-- End .container -->
+			</div><!-- End .header-top -->
+
+			<div class="header-middle">
+				<div class="container">
+					<div class="header-left col-lg-2 w-auto pl-0">
+						<button class="mobile-menu-toggler mr-2" type="button">
+							<i class="icon-menu"></i>
+						</button>
+						<a href="index.html" class="logo">
+							<img src="assets/images/logo.png" alt=" Logo">
+						</a>
+					</div><!-- End .header-left -->
+
+					<div class="header-right w-lg-max ml-0">
+						<div class="header-icon header-search header-search-inline header-search-category w-lg-max pl-3">
+							<a href="#" class="search-toggle" role="button"><i class="icon-search-3"></i></a>
+							<form action="#" method="get">
+								<div class="header-search-wrapper">
+									<input type="search" class="form-control" name="q" id="q" placeholder="Search..." required>
+									<div class="select-custom">
+										<select id="cat" name="cat">
+											<option value="">All Categories</option>
+											<option value="4">Web Development</option>
+											<option value="5">Android</option>
+											<option value="21">IOT</option>
+											<option value="22">Photography</option>
+											<option value="63">Learn Coding</option>
+											<option value="7">Home Automation</option>
+											
+										</select>
+									</div><!-- End .select-custom -->
+									<button class="btn icon-search-3" type="submit"></button>
+								</div><!-- End .header-search-wrapper -->
+							</form>
+						</div><!-- End .header-search -->
+
+						<div class="header-contact d-none d-lg-flex pl-4 ml-3 mr-xl-5 pr-4">
+							<img alt="phone" src="assets/images/phone.png" width="30" height="30" class="pb-1">
+							<h6>Call us now<a href="tel:#" class="font1">+91 123 4567 890</a></h6>
+						</div>
+
+						<a href="mailto:info@edubus.com" title="info@edubus.com" class="header-icon"><i class="flaticon-mail"></i></a>
+
+						<a href="https://wa.me/911234567890" title="+91-1234567890" class="header-icon"><i class="flaticon-whatsapp"></i></a>
+
+					
+							
+
+							
+						</div><!-- End .dropdown -->
+					</div><!-- End .header-right -->
+				</div><!-- End .container -->
+			</div><!-- End .header-middle -->
+
+			<div class="header-bottom sticky-header d-none d-lg-block">
+				<div class="container">
+					<nav class="main-nav w-100">
+						<ul class="menu">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<!--<li class="float-right"><a href="#" target="_blank">Learn Today!</a></li>
+							<li class="float-right"><a href="#">Special Offer!</a></li>-->
+						</ul>
+					</nav>
+				</div><!-- End .container -->
+			</div><!-- End .header-bottom -->
+		</header><!-- End .header -->
+
+		<main class="main">
+			<nav aria-label="breadcrumb" class="breadcrumb-nav">
+				<div class="container">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="index.html"><i class="icon-home"></i></a></li>
+						<li class="breadcrumb-item active" aria-current="page">Dragon Learn</li>
+					</ol>
+				</div><!-- End .container -->
+			</nav>
+
+	
+				<div class="products-section section-bg-gray">
+					</div>
+			
+					<div class="container">
+				<div class="row">
+				<div class="col-md-3"></div>
+					<div class="col-md-6">
+					<br/>
+						<h2 class="light-title">Fill your Details to<strong> Buy Course Now!</strong></h2>
+
+						
+							<div class="form-group required-field">
+								<label for="contact-name">Name</label>
+								<input type="text" class="form-control" id="name" name="name" required>
+							</div><!-- End .form-group -->
+
+							<div class="form-group required-field">
+								<label for="contact-email">Email</label>
+								<input type="email" class="form-control" id="email" name="email" required>
+							</div><!-- End .form-group -->
+
+							<div class="form-group">
+								<label for="contact-phone">Phone Number</label>
+								<input type="tel" class="form-control" id="phone" name="phone">
+							</div><!-- End .form-group -->
+
+							<div class="form-group required-field">
+								<label for="contact-message">Message</label>
+								<input type="textarea" cols="30" rows="1" id="message" class="form-control" name="message" required>
+							</div><!-- End .form-group -->
+
+							<div class="form-footer">
+								<button type="submit" onclick="save_user();" class="btn btn-primary">Submit</button>
+							</div><!-- End .form-footer -->
+						
+					</div><!-- End .col-md-8 -->
+
+					
+				</div><!-- End .row -->
+			</div><!-- End .container -->
+
+			<div class="mb-8"></div><!-- margin -->
+		</main><!-- End .main -->
+<footer class="footer bg-dark">
+			
+			<div class="container">
+				<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+					<p class="footer-copyright py-3 pr-4 mb-0">&copy; Edubus. 2020. All Rights Reserved</p>
+
+					<img src="assets/images/payments.png" alt="payment methods" class="footer-payments py-3">
+				</div><!-- End .footer-bottom -->
+			</div><!-- End .container -->
+		</footer><!-- End .footer -->
+	</div><!-- End .page-wrapper -->
+
+	<div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+
+	<div class="mobile-menu-container">
+		<div class="mobile-menu-wrapper">
+			<span class="mobile-menu-close"><i class="icon-cancel"></i></span>
+			<nav class="mobile-nav">
+				<ul class="mobile-menu mb-3">
+					<li class="active"><a href="index.html">Home</a></li>
+					
+							
+							<li><a href="about.html">About</a></li>
+						
+						
+					</li>
+					<li><a href="contact.html">Contact Us</a></li>
+				
+				
+				</ul>
+
+			</nav><!-- End .mobile-nav -->
+
+			<div class="social-icons">
+				<a href="#" class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
+				<a href="#" class="social-icon" target="_blank"><i class="icon-twitter"></i></a>
+				<a href="#" class="social-icon" target="_blank"><i class="icon-instagram"></i></a>
+			</div><!-- End .social-icons -->
+		</div><!-- End .mobile-menu-wrapper -->
+	</div><!-- End .mobile-menu-container -->
+
+	<!-- Add Cart Modal -->
+	
+
+	<a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
+
+	<!-- Plugins JS File -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Main JS File -->
+	<script src="js/main.min.js"></script>
+	<script>
+	function save_user(){
+   var name = document.getElementById('name').value;
+   var phone = document.getElementById('phone').value;
+   var email = document.getElementById('email').value;
+  var message = document.getElementById('message').value;
+   var uid = firebase.database().ref().child('Dragon').push().key;
+   
+   var data = {
+    
+    name: name,
+	phone: phone,
+	email : email,
+	  message: message,
+   }
+   
+   var updates = {};
+   updates['/Dragon/' + uid] = data;
+   firebase.database().ref().update(updates);
+   console.log(updates)
+   alert('The message saved successfully!');
+  
+  }
+	</script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+
+<html>
+<head>
+ <title>Lattuu</title>
+<link href="style.css" rel="stylesheet">
+<script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCPN4KDMQS9wUuB26734rAWD6GEEZDetUc",
+    authDomain: "real-time-b0126.firebaseapp.com",
+    databaseURL: "https://real-time-b0126.firebaseio.com",
+    projectId: "real-time-b0126",
+    storageBucket: "real-time-b0126.appspot.com",
+    messagingSenderId: "709038038236"
+  };
+  firebase.initializeApp(config);
+</script>
+<style>
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+</style>
+<style>
+.mainDoge {
+	width: 40%;
+}
+
+#inputLabel {
+	overflow: hidden;
+	max-height: 40px;
+	background-image: linear-gradient(to bottom,#337ab7 0,#265a88 100%); 
+	padding: 10px 10px 10px 10px;
+	color: white;
+}
+
+#inputLabel > input {
+	position: fixed;
+	top: -1000px;
+}
+</style>
+</head>
+<body>
+<div id="Frame0">
+  <h1>Admin Portal.</h1>
+  
+</div>
+
+ <BR><BR><BR>
+<div id="Frame0"><center>
+  <h1>Lattuu Kids Details List</h1>
+ </center>
+</div>
+ 
+
+ <center>
+ <table id="tbl_users_list"width="400" border="0" align="center" cellpadding="5" cellspacing="1" class="Table">
+  <tr>
+  
+   <td>Name</td>
+   <td>Phone</td>
+   <td>Email</td>
+   <td>Message</td>
+  </tr>
+ </table>
+ 
+ 
+ </center>
+ <script>
+ 
+ 
+ 
+  var tblUsers = document.getElementById('tbl_users_list');
+  var databaseRef = firebase.database().ref('Lattuu/');
+  
+  var rowIndex = 1;
+  
+  databaseRef.once('value', function(snapshot) {
+    snapshot.forEach(function(childSnapshot) {
+   var childKey = childSnapshot.key;
+   var childData = childSnapshot.val();
+   
+   var row = tblUsers.insertRow(rowIndex);
+   var cellId = row.insertCell(0);
+   var cellName = row.insertCell(0);
+   var cellName0 = row.insertCell(1);
+   var cellName1 = row.insertCell(2);
+    var cellName2 = row.insertCell(3);
+	
+
+
+
+   cellName.appendChild(document.createTextNode(childData.name));
+      cellName0.appendChild(document.createTextNode(childData.phone));
+	  cellName1.appendChild(document.createTextNode(childData.email));
+	  	  cellName2.appendChild(document.createTextNode(childData.message));
+		    rowIndex = rowIndex + 1;
+    });
+  });
+  
+  var provider = new firebase.auth.GoogleAuthProvider();
+
+
+  
+  
+ </script>
+ 
+</body>
+</html>

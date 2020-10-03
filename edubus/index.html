@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>EduBus</title>
+
+	<meta name="keywords" content="EduBus" />
+	<meta name="description" content="Prototype">
+	<meta name="author" content="Vatsal">
+		
+	<!-- Favicon -->
+	<link rel="icon" type="image/x-icon" href="assets/images/icons/favicon.ico">
+	
+	
+	<script type="text/javascript">
+		WebFontConfig = {
+			google: { families: [ 'Open+Sans:300,400,600,700,800','Poppins:300,400,500,600,700', 'Shadows+Into+Light:400' ] }
+		};
+		(function(d) {
+			var wf = d.createElement('script'), s = d.scripts[0];
+			wf.src = 'js/webfont.js';
+			wf.async = true;
+			s.parentNode.insertBefore(wf, s);
+		})(document);
+	</script>
+
+	<!-- Plugins CSS File -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="font/flaticon.css">
+
+	<!-- Main CSS File -->
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" type="text/css" href="vendor/fontawesome-free/css/all.min.css"> 
+	<style>
+	.box {
+  transition: box-shadow .3s;
+ 
+  border-radius:10px;
+  border: 1px solid #ccc;
+  background: #fff;
+  float: left;
+  
+}
+.box:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+}
+	</style>
+</head>
+<body>
+	<div class="page-wrapper">
+		
+
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-left">
+						<p class="top-message ls-0 text-uppercase text-white d-none d-sm-block">Rise up Your Skills Today With EDUBUS</p>
+					</div><!-- End .header-left -->
+
+					<div class="header-right header-dropdowns w-sm-100">
+						<div class="header-dropdown dropdown-expanded d-none d-lg-block mr-4">
+							<a href="#">Links</a>
+							<div class="header-menu">
+								<ul>
+									
+									<li><a href="about.html">About</a></li>
+									
+									<li><a href="contact.html">Contact</a></li>
+									
+								</ul>
+							</div><!-- End .header-menu -->
+						</div><!-- End .header-dropown -->
+
+						<span class="separator"></span>
+
+					
+
+						<div class="social-icons">
+							<a href="#" class="social-icon social-instagram icon-instagram" target="_blank"></a>
+							<a href="#" class="social-icon social-twitter icon-twitter" target="_blank"></a>
+							<a href="#" class="social-icon social-facebook icon-facebook" target="_blank"></a>
+						</div><!-- End .social-icons -->
+					</div><!-- End .header-right -->
+				</div><!-- End .container -->
+			</div><!-- End .header-top -->
+
+			<div class="header-middle">
+				<div class="container">
+					<div class="header-left col-lg-2 w-auto pl-0">
+						<button class="mobile-menu-toggler mr-2" type="button">
+							<i class="icon-menu"></i>
+						</button>
+						<a href="index.html" class="logo">
+							<img src="assets/images/logo.png" alt=" Logo">
+						</a>
+					</div><!-- End .header-left -->
+
+					<div class="header-right w-lg-max ml-0">
+						<div class="header-icon header-search header-search-inline header-search-category w-lg-max pl-3">
+							<a href="#" class="search-toggle" role="button"><i class="icon-search-3"></i></a>
+							<form action="#" method="get">
+								<div class="header-search-wrapper">
+									<input type="search" class="form-control" name="q" id="q" placeholder="Search..." required>
+									<div class="select-custom">
+										<select id="cat" name="cat">
+											<option value="">All Categories</option>
+											<option value="4">Web Development</option>
+											<option value="5">Android</option>
+											<option value="21">IOT</option>
+											<option value="22">Photography</option>
+											<option value="63">Learn Coding</option>
+											<option value="7">Home Automation</option>
+											
+										</select>
+									</div><!-- End .select-custom -->
+									<button class="btn icon-search-3" type="submit"  onClick="alert('THis Feature is under Development')"></button>
+								</div><!-- End .header-search-wrapper -->
+							</form>
+						</div><!-- End .header-search -->
+
+						<div class="header-contact d-none d-lg-flex pl-4 ml-3 mr-xl-5 pr-4">
+							<img alt="phone" src="assets/images/phone.png" width="30" height="30" class="pb-1">
+							<h6>Call us now<a href="tel:#" class="font1">+91 123 4567 890</a></h6>
+						</div>
+
+						<a href="mailto:info@edubus.com" title="info@edubus.com" class="header-icon"><i class="flaticon-mail"></i></a>
+
+						<a href="https://wa.me/911234567890" title="+91-1234567890" class="header-icon"><i class="flaticon-whatsapp"></i></a>
+
+					
+							
+
+							
+						</div><!-- End .dropdown -->
+					</div><!-- End .header-right -->
+				</div><!-- End .container -->
+			</div><!-- End .header-middle -->
+
+			<div class="header-bottom sticky-header d-none d-lg-block">
+				<div class="container">
+					<nav class="main-nav w-100">
+						<ul class="menu">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							
+							<li><a href="about.html">About Us</a></li>
+							<li><a href="contact.html">Contact Us</a></li>
+							<!--<li class="float-right"><a href="#" target="_blank">Learn Today!</a></li>
+							<li class="float-right"><a href="#">Special Offer!</a></li>-->
+						</ul>
+					</nav>
+				</div><!-- End .container -->
+			</div><!-- End .header-bottom -->
+		</header><!-- End .header -->
+
+		<main class="main">
+			<div class="container mt-2">
+				<div class="row">
+					<div class="col-lg-3 mb-2">
+						<div class="side-menu-wrapper">
+							<h2 class="side-menu-title">TRENDING</h2>
+
+							<div class="side-menu-body pt-2 mb-2 px-3 mx-3">
+								<ul class="side-menu mb-1 pb-1">
+									<li><a href="page.html" target="_blank"><i class="icon-category-electronics"></i>JavaScript</a></li>
+									<li><a href="page.html" target="_blank"><i class="icon-category-gifts"></i>TypeScript</a></li>
+									<li><a href="page.html" target="_blank"><i class="icon-category-garden"></i>Flutter</a></li>
+									<li><a href="page.html" target="_blank"><i class="icon-category-fashion"></i>React</a></li>
+									<li><a href="page.html" target="_blank"><i class="icon-category-music"></i>NLP</a></li>
+									<li><a href="page.html" target="_blank"><i class="icon-cat-sport"></i>PHP</a></li>
+								</ul>
+
+								<a href="#" class="btn btn-block btn-dark btn-lg px-0">Huge Sale - <strong>30%</strong> Off</a>
+							</div><!-- End .side-menu-body -->
+						</div><!-- End .side-custom-menu -->
+					</div><!-- End .col-lg-3 -->
+
+					<div class="col-lg-9 mb-2">
+						<div class="home-slider owl-carousel owl-theme owl-carousel-lazy" data-owl-options="{
+							'dots': true,
+							'nav': false
+						}">
+							<div class="home-slide home-slide1 banner banner-md-vw banner-sm-vw">
+								<img class="owl-lazy slide-bg" src="assets/images/lazy.png" data-src="assets/images/slider/slide-1.jpg" alt="slider image">
+								<div class="banner-layer banner-layer-middle">
+									<h4 class="text-white m-b-3">Learn New. Become A Engineer!</h4>
+									<h2 class="text-white mb-0">Engineer's Day</h2>
+									<h3 class="text-white text-uppercase m-b-3">30% Off</h3>
+									<h5 class="text-white text-uppercase d-inline-block mb-0">Starting At <b class="coupon-sale-text text-secondary">₹<em class="align-text-top">19</em>99</b></h5>
+									<a href="#choose" class="btn btn-dark">Get Yours!</a>
+								</div><!-- End .banner-layer -->
+							</div><!-- End .home-slide -->
+
+							<div class="home-slide home-slide2 banner banner-md-vw banner-sm-vw">
+								<img class="owl-lazy slide-bg" src="assets/images/lazy.png" data-src="assets/images/slider/slide-2.jpg" alt="slider image">
+								<div class="banner-layer banner-layer-middle text-uppercase">
+									<h4 class="m-b-2">Start Speaking. Build YOUR Career</h4>
+									<h2 class="m-b-3">Great Courses</h2>
+									<h5 class="d-inline-block mb-0 align-top mr-5">Starting At <b>₹<em>14</em>99</b></h5>
+									<a href="#choose" class="btn btn-dark">Get Yours!</a>
+								</div><!-- End .banner-layer -->
+							</div><!-- End .home-slide -->
+
+							<div class="home-slide home-slide3 banner banner-md-vw banner-sm-vw">
+								<img class="owl-lazy slide-bg" data-src="assets/images/slider/slide-3.jpg"></img>
+								<div class="banner-layer banner-layer-middle text-uppercase">
+									<h4 class="m-b-2">Up to 70% off</h4>
+									<h2 class="m-b-3">New Courses</h2>
+									<h5 class="d-inline-block mb-0 align-top mr-5">Starting At <b>₹<em> 9</em>99</b></h5>
+									<a href="#choose" class="btn btn-dark">Get Yours!</a>
+								</div><!-- End .banner-layer -->
+							</div><!-- End .home-slide -->
+						</div><!-- End .home-slider -->
+					</div><!-- End .col-lg-9 -->
+				</div><!-- End .row -->
+
+				<br/><br/>
+				<center><h2 id="choose">CHOOSE YOUR OPTION</h2></center>
+				<div class="banners-grid text-uppercase grid" data-grid-options="{
+					'sortReorder': true
+				}">
+					<div class="banner banner1 grid-item banner-md-vw w-25 w-md-50 text-transform-none w-xxs-100 box" data-md-order="1">
+						<a href="page.html">
+						<figure>
+							<img src="assets/images/banners/banner-1.jpg" alt="banner">
+						</figure>
+
+						<div class="banner-layer banner-layer-middle text-right">
+							<h6 class="banner-layer-circle-item ml-auto mb-1" style="font-size: white;"><small style="color:white";>PRE-KG</small></h6>
+							<br><br><br><br>
+							<h4 class="m-b-1 ls-n-10">Starting From</h4>
+							<h5 class="m-b-3 ls-10"><del class="d-block m-b-2">₹2700</del>₹800<small><sup>*</sup></small></h5>
+							
+							
+						</div>
+						</a>
+					</div><!-- End .banner -->
+					
+					<div class="banner banner1 grid-item banner-md-vw w-25 w-md-50 text-transform-none w-xxs-100 box" data-md-order="1">
+						<a href="page.html">
+						<figure>
+							<img src="assets/images/banners/banner-2.jpg" alt="banner">
+						</figure>
+
+						<div class="banner-layer banner-layer-middle text-right">
+							<h4 class="banner-layer-circle-item ml-auto mb-2"><small> 1-12</small></h4>
+							<br><br><br><br>
+							<h4 class="m-b-1 ls-n-10">Starting From</h4>
+							<h5 class="m-b-3 ls-10"><del class="d-block m-b-2">$3000</del>₹1000<small><sup>*</sup></small></h5>
+							
+							
+						</div>
+						</a>
+					</div><!-- End .banner -->
+					
+						
+					<div class="banner banner1 grid-item banner-md-vw w-25 w-md-50 text-transform-none w-xxs-100 box" data-md-order="1">
+						<a href="page.html">
+						<figure>
+							<img src="assets/images/banners/banner-3.jpg" alt="banner">
+						</figure>
+
+						<div class="banner-layer banner-layer-middle text-right">
+							<h4 class="banner-layer-circle-item ml-auto mb-2"><small> UG-PG</small></h4>
+							<br><br><br><br>
+							<h4 class="m-b-1 ls-n-10">Starting From</h4>
+							<h5 class="m-b-3 ls-10"><del class="d-block m-b-2">₹3500</del>₹1400<small><sup>*</sup></small></h5>
+							
+							
+						</div>
+						</a>
+					</div><!-- End .banner -->
+					
+						
+					<div class="banner banner1 grid-item banner-md-vw w-25 w-md-50 text-transform-none w-xxs-100 box" data-md-order="1">
+						<a href="page.html">
+						<figure>
+							<img src="assets/images/banners/banner-4.jpg" alt="banner">
+						</figure>
+
+						<div class="banner-layer banner-layer-middle text-right">
+							<h4 class="banner-layer-circle-item ml-auto mb-2"><small>Other Skills</small></h4>
+							<br><br><br><br>
+							<h4 class="m-b-1 ls-n-10">Starting From</h4>
+							<h5 class="m-b-3 ls-10"><del class="d-block m-b-2">₹4000</del>₹1500<small><sup>*</sup></small></h5>
+							
+							
+						</div>
+						</a>
+					</div><!-- End .banner -->
+					
+					
+
+					
+
+				
+
+					<div class="grid-col-sizer w-25"></div>
+				</div>
+			</div><!-- End .container -->
+
+			<div class="mb-4"></div><!-- margin -->
+
+		<div class="mb-4"></div><!-- margin -->
+
+			<div class=" section-bg-gray">
+				<div class="container">
+					<h2 class="section-title">Top Courses</h2>
+					<div class="products-slider owl-carousel owl-theme dots-top">
+						<div class="inner-quickview inner-icon">
+							<figure>
+								<img src="assets/images/products/product-21.jpg">
+								<button type="button" class="btn btn-primary" style="width: 100%;" data-toggle="modal" data-target="#product_view"><i class="fa fa-search"></i> Quick View</button>
+								<div class="btn-icon-group">
+									<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i></button>
+								</div>
+							</figure>
+							<div class="product-default product-details">
+								<div class="category-wrap">
+									<div class="category-list">
+										<a href="#" class="product-category">category</a>
+									</div>
+									<a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
+								</div>
+								<h3 class="product-title">
+									<a href="#">Engineering</a>
+								</h3>
+								
+								<div class="price-box">
+									<span class="old-price">$36.00</span>
+									<span class="product-price">$16.56</span>
+								</div><!-- End .price-box -->
+							</div><!-- End .product-details -->
+						</div>
+						
+						<div class=" inner-quickview inner-icon">
+							<figure>
+									<img src="assets/images/products/product-22.jpg">
+								 <button type="button" class="btn btn-primary" style="width: 100%;" data-toggle="modal" data-target="#product_view1"><i class="fa fa-search"></i> Quick View</button>
+								<div class="btn-icon-group">
+									<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i></button>
+								</div>	
+							</figure>
+							<div class="product-default product-details">
+								<div class="category-wrap">
+									<div class="category-list">
+										<a href="#" class="product-category">category</a>
+									</div>
+									<a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
+								</div>
+								<h3 class="product-title">
+									<a href="#">Management</a>
+								</h3>
+								<div class="price-box">
+									<span class="old-price">$40.00</span>
+									<span class="product-price">$20.56</span>
+								</div><!-- End .price-box -->
+							</div><!-- End .product-details -->
+						</div>
+						
+						<div class=" inner-quickview inner-icon">
+							<figure>
+								
+									<img src="assets/images/products/product-23.jpg">
+								 <button type="button" class="btn btn-primary" style="width: 100%;" data-toggle="modal" data-target="#product_view2"><i class="fa fa-search"></i> Quick View</button>
+								<div class="btn-icon-group">
+									<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i></button>
+								</div>
+								
+							</figure>
+							<div class="product-default product-details">
+								<div class="category-wrap">
+									<div class="category-list">
+										<a href="#" class="product-category">category</a>
+									</div>
+									<a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
+								</div>
+								<h3 class="product-title">
+									<a href="#">Engineering</a>
+								</h3>
+								
+								<div class="price-box">
+									<span class="old-price">$40.00</span>
+									<span class="product-price">$20.00</span>
+								</div><!-- End .price-box -->
+							</div><!-- End .product-details -->
+						</div>
+						
+						<div class=" inner-quickview inner-icon">
+							<figure>
+								
+									<img src="assets/images/products/product-24.jpg">
+								 <button type="button" class="btn btn-primary" style="width: 100%;" data-toggle="modal" data-target="#product_view3"><i class="fa fa-search"></i> Quick View</button>
+								<div class="btn-icon-group">
+									<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i></button>
+								</div>
+								
+							</figure>
+							<div class="product-default product-details">
+								<div class="category-wrap">
+									<div class="category-list">
+										<a href="#" class="product-category">category</a>
+									</div>
+									<a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
+								</div>
+								<h3 class="product-title">
+									<a href="#">Speaking</a>
+								</h3>
+								
+								<div class="price-box">
+									<span class="old-price">$20.00</span>
+									<span class="product-price">$6.00</span>
+								</div><!-- End .price-box -->
+							</div><!-- End .product-details -->
+						</div>
+						
+						<div class=" inner-quickview inner-icon">
+							<figure>
+								
+									<img src="assets/images/products/product-25.jpg">
+								 <button type="button" class="btn btn-primary" style="width: 100%;" data-toggle="modal" data-target="#product_view4"><i class="fa fa-search"></i> Quick View</button>
+								<div class="btn-icon-group">
+									<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i></button>
+								</div>
+								
+							</figure>
+							<div class="product-default product-details">
+								<div class="category-wrap">
+									<div class="category-list">
+										<a href="#" class="product-category">category</a>
+									</div>
+									<a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
+								</div>
+								<h3 class="product-title">
+									<a href="#">Engineering</a>
+								</h3>
+								
+								<div class="price-box">
+									<span class="old-price">$50.00</span>
+									<span class="product-price">$40.00</span>
+								</div><!-- End .price-box -->
+							</div><!-- End .product-details -->
+						</div>
+						
+						<div class=" inner-quickview inner-icon">
+							<figure>
+								
+									<img src="assets/images/products/product-21.jpg">
+								
+								 <button type="button" class="btn btn-primary" style="width: 100%;" data-toggle="modal" data-target="#product_view5"><i class="fa fa-search"></i> Quick View</button>
+								<div class="btn-icon-group">
+									<button class="btn-icon btn-add-cart" data-toggle="modal" data-target="#addCartModal"><i class="icon-shopping-cart"></i></button>
+								</div>
+							</figure>
+							<div class="product-default product-details">
+								<div class="category-wrap">
+									<div class="category-list">
+										<a href="#" class="product-category">category</a>
+									</div>
+									<a href="#" class="btn-icon-wish"><i class="icon-heart"></i></a>
+								</div>
+								<h3 class="product-title">
+									<a href="#">Engineering</a>
+								</h3>
+								
+								<div class="price-box">
+									<span class="old-price">$36.00</span>
+									<span class="product-price">$16.56</span>
+								</div><!-- End .price-box -->
+							</div><!-- End .product-details -->
+						</div>
+						
+					
+					</div>
+				</div>
+			</div>
+			
+				<div class="brands-section mt-5 mb-5">
+				<div class="container">
+					<div class="brands-slider owl-carousel owl-theme images-center">
+						<img src="assets/images/brands/logo.png" width="160" height="60" alt="PARTNER">
+						<img src="assets/images/brands/logo.png" width="160" height="60" alt="PARTNER">
+						<img src="assets/images/brands/logo.png" width="160" height="60" alt="PARTNER">
+						<img src="assets/images/brands/logo.png" width="160" height="60" alt="PARTNER">
+						<img src="assets/images/brands/logo.png" width="160" height="60" alt="PARTNER">
+						<img src="assets/images/brands/logo.png" width="160" height="60" alt="PARTNER">
+						<img src="assets/images/brands/logo.png" width="160" height="60" alt="PARTNER">
+						<img src="assets/images/brands/logo.png" width="160" height="60" alt="PARTNER">
+					</div><!-- End .brands-slider -->
+				</div>
+			</div>
+		</main><!-- End .main -->
+
+		<footer class="footer bg-dark">
+			
+			<div class="container">
+				<div class="footer-bottom d-flex justify-content-between align-items-center flex-wrap">
+					<p class="footer-copyright py-3 pr-4 mb-0">&copy; Edubus. 2020. All Rights Reserved</p>
+
+					<img src="assets/images/payments.png" alt="payment methods" class="footer-payments py-3">
+				</div><!-- End .footer-bottom -->
+			</div><!-- End .container -->
+		</footer><!-- End .footer -->
+	</div><!-- End .page-wrapper -->
+
+	<div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+
+	
+<!--Start-->
+<div class="modal fade product_view" id="product_view">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Engineering</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="assets/images/products/product-21.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Learn Web Development Today </h4>
+						<h5><span>520 People bought this course</span><h5>
+						<br>
+                        
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> $16.56 <small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> $36.00</small></h3>
+                       
+                        <div class="space-ten"></div>
+                        <div class="btn-ground">
+                            
+                            <button type="button" onclick="location.href='lat.html'" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade product_view" id="product_view1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Management</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="assets/images/products/product-22.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Product Management Today </h4>
+						<h5><span>910 People bought this course</span><h5>
+						<br>
+                        
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> $20.56<small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> $40.00</small></h3>
+                       
+                        <div class="space-ten"></div>
+                        <div class="btn-ground">
+                            
+                            <button type="button" onclick="location.href='dra.html'" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade product_view" id="product_view2">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Engineering</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="assets/images/products/product-23.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Android App Development for Beginners </h4>
+						<h5><span>410	 People bought this course</span><h5>
+						<br>
+                        
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> $20.00<small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> $40.00</small></h3>
+                       
+                        <div class="space-ten"></div>
+                        <div class="btn-ground">
+                            
+                            <button type="button" onclick="location.href='dra.html'" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="product_view3">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Speaking</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="assets/images/products/product-24.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Speak Today </h4>
+						<h5><span>1100	 People bought this course</span><h5>
+						<br>
+                        
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> $06.00<small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> $20.00</small></h3>
+                       
+                        <div class="space-ten"></div>
+                        <div class="btn-ground">
+                            
+                            <button type="button" onclick="location.href='lat.html'" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="product_view4">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Engineering</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="assets/images/products/product-25.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Web Full Stack Development </h4>
+						<h5><span>236	 People bought this course</span><h5>
+						<br>
+                        
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> $40.00<small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> $50.00</small></h3>
+                       
+                        <div class="space-ten"></div>
+                        <div class="btn-ground">
+                            
+                            <button type="button" onclick="location.href='lat.html'" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade product_view" id="product_view5">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a href="#" data-dismiss="modal" class="class pull-right"><span class="glyphicon glyphicon-remove"></span></a>
+                <h3 class="modal-title">Engineering</h3>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6 product_img">
+                        <img src="assets/images/products/product-25.jpg" class="img-responsive">
+                    </div>
+                    <div class="col-md-6 product_content">
+                        <h4>Learn Web Today </h4>
+						<h5><span>564	 People bought this course</span><h5>
+						<br>
+                        
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <h3 class="cost"><span class="glyphicon glyphicon-usd"></span> $16.56<small class="pre-cost"><span class="glyphicon glyphicon-usd"></span> $36.00</small></h3>
+                       
+                        <div class="space-ten"></div>
+                        <div class="btn-ground">
+                            
+                            <button type="button" onclick="location.href='dra.html'" class="btn btn-primary"><span class="glyphicon glyphicon-heart"></span> Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--end-->
+
+
+	<div class="mobile-menu-container">
+		<div class="mobile-menu-wrapper">
+			<span class="mobile-menu-close"><i class="icon-cancel"></i></span>
+			<nav class="mobile-nav">
+				<ul class="mobile-menu mb-3">
+					<li class="active"><a href="index.html">Home</a></li>
+					
+								
+							<li><a href="about.html">About</a></li>
+						
+						
+					</li>
+					<li><a href="contact.html">Contact Us</a></li>
+				
+				
+				</ul>
+
+			</nav><!-- End .mobile-nav -->
+
+			<div class="social-icons">
+				<a href="#" class="social-icon" target="_blank"><i class="icon-facebook"></i></a>
+				<a href="#" class="social-icon" target="_blank"><i class="icon-twitter"></i></a>
+				<a href="#" class="social-icon" target="_blank"><i class="icon-instagram"></i></a>
+			</div><!-- End .social-icons -->
+		</div><!-- End .mobile-menu-wrapper -->
+	</div><!-- End .mobile-menu-container -->
+
+	<div class="newsletter-popup mfp-hide bg-img" id="newsletter-popup-form" style="background: #f1f1f1 no-repeat center/cover url(assets/images/newsletter_popup_bg.jpg)">
+		<div class="newsletter-popup-content">
+			<img src="assets/images/logo-black.png" alt="Logo" class="logo-newsletter">
+			<h2>BE THE FIRST TO KNOW</h2>
+			<p>Subscribe to the Infinite Experiental's newsletter to receive timely updates from your favorite courses.</p>
+			<form action="#">
+				<div class="input-group">
+					<input type="email" class="form-control" id="newsletter-email" name="newsletter-email" placeholder="Email address" required>
+					<input type="submit" class="btn" value="Go!">
+				</div><!-- End .from-group -->
+			</form>
+			<div class="newsletter-subscribe">
+				<div class="checkbox">
+					<label>
+						<input type="checkbox" value="1">
+						Don't show this popup again
+					</label>
+				</div>
+			</div>
+		</div><!-- End .newsletter-popup-content -->
+	</div><!-- End .newsletter-popup -->
+
+	<!-- Add Cart Modal -->
+	
+
+	<a id="scroll-top" href="#top" title="Top" role="button"><i class="icon-angle-up"></i></a>
+
+	<!-- Plugins JS File -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/optional/isotope.pkgd.min.js"></script>
+	<script src="js/plugins.min.js"></script>
+
+	<!-- Main JS File -->
+	<script src="js/main.min.js"></script>
+</body>
+</html>
